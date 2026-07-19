@@ -8,7 +8,10 @@ Reviews often cover several aspects (food, service, ambiance, price) with mixed 
 
 RoBERTa-base performed best overall (83.6% accuracy, 82.9% macro F1), narrowly ahead of BERT and XLM-RoBERTa, and all transformer models substantially outperformed LSTM (71.2%) and SVM (68.5%). Food sentiment was easiest to classify (F1 85.3%); Price was hardest (F1 79.8%). Neutral sentiment remained the most difficult class across all models (41-49% accuracy).
 
-Rendered notebook outputs: [`reports/`](reports/).
+The `.ipynb` files are clean/unexecuted source. To see the actual results (plots, metrics, predictions), view the rendered exports:
+- [Part 1 — Data Preprocessing](https://htmlpreview.github.io/?https://github.com/Surebuckle71/aspect-sentiment-analysis-food-reviews/blob/main/reports/Part1_Zomato_Final.html)
+- [Part 2 — Model Training](https://htmlpreview.github.io/?https://github.com/Surebuckle71/aspect-sentiment-analysis-food-reviews/blob/main/reports/Part2_ZomatoTrain_Models.html)
+- [Part 3 — Predictions](https://htmlpreview.github.io/?https://github.com/Surebuckle71/aspect-sentiment-analysis-food-reviews/blob/main/reports/Part3_ZomatoPredictions.html)
 
 ## Dataset
 
@@ -23,7 +26,7 @@ Raw and preprocessed data (1.3M+ review instances, several GB) are not included 
 - `Part3_ZomatoPredictions.ipynb` — evaluation and predictions
 - `docs/dataset_statistics.png` — dataset statistics
 - `docs/bibliography.bib` — references
-- `reports/` — pre-rendered HTML exports of each notebook
+- `reports/` — pre-rendered HTML exports of each notebook with full outputs (see links above)
 
 ## Usage
 
