@@ -1,0 +1,19 @@
+# Data
+*.csv
+*.xlsx
+*.zip
+
+# Model checkpoints
+*.pt
+*.pth
+*.bin
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
