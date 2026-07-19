@@ -8,7 +8,7 @@ Reviews often cover several aspects (food, service, ambiance, price) with mixed 
 
 RoBERTa-base performed best overall (83.6% accuracy, 82.9% macro F1), narrowly ahead of BERT and XLM-RoBERTa, and all transformer models substantially outperformed LSTM (71.2%) and SVM (68.5%). Food sentiment was easiest to classify (F1 85.3%); Price was hardest (F1 79.8%). Neutral sentiment remained the most difficult class across all models (41-49% accuracy).
 
-Full paper: [`docs/paper.pdf`](docs/paper.pdf). Rendered notebook outputs: [`reports/`](reports/).
+Rendered notebook outputs: [`reports/`](reports/).
 
 ## Dataset
 
